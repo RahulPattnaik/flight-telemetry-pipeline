@@ -1,0 +1,181 @@
+{
+  "pipeline_version": "1.0.0",
+  "total_flights": 5,
+  "flagged_flights": 5,
+  "flights": [
+    {
+      "flight_id": "FLT_001",
+      "duration_s": 600.0,
+      "total_samples": 6001,
+      "fault_samples": 2,
+      "fault_rate_pct": 0.03,
+      "fault_types": [
+        {
+          "reason": "VIBRATION_ANOMALY_ZSCORE",
+          "count": 2
+        }
+      ],
+      "max_altitude_m": 126.5,
+      "mean_cruise_airspeed_ms": 23.4,
+      "max_motor_temp_c": 58.8,
+      "max_motor_temp_spread": 6.6,
+      "min_battery_v": 39.78,
+      "min_battery_pct": 14.5,
+      "mean_vibration_g": 0.299,
+      "phase_distribution": {
+        "descent": 2435,
+        "climb": 2317,
+        "ground": 728,
+        "cruise": 325,
+        "landing": 150,
+        "unknown": 46
+      }
+    },
+    {
+      "flight_id": "FLT_002",
+      "duration_s": 480.0,
+      "total_samples": 4801,
+      "fault_samples": 2,
+      "fault_rate_pct": 0.04,
+      "fault_types": [
+        {
+          "reason": "VIBRATION_ANOMALY_ZSCORE",
+          "count": 1
+        },
+        {
+          "reason": "MOTOR_TEMP_ANOMALY_ZSCORE",
+          "count": 1
+        }
+      ],
+      "max_altitude_m": 126.4,
+      "mean_cruise_airspeed_ms": 23.11,
+      "max_motor_temp_c": 59.2,
+      "max_motor_temp_spread": 5.6,
+      "min_battery_v": 39.83,
+      "min_battery_pct": 14.8,
+      "mean_vibration_g": 0.3,
+      "phase_distribution": {
+        "climb": 2222,
+        "descent": 2135,
+        "cruise": 296,
+        "landing": 148
+      }
+    },
+    {
+      "flight_id": "FLT_003",
+      "duration_s": 720.0,
+      "total_samples": 7201,
+      "fault_samples": 896,
+      "fault_rate_pct": 12.44,
+      "fault_types": [
+        {
+          "reason": "MOTOR_TEMP_SPREAD_HIGH",
+          "count": 892
+        },
+        {
+          "reason": "motor2_CRITICAL_OVERHEAT",
+          "count": 506
+        },
+        {
+          "reason": "motor2_TEMP_WARN",
+          "count": 365
+        },
+        {
+          "reason": "MOTOR_TEMP_ANOMALY_ZSCORE",
+          "count": 4
+        }
+      ],
+      "max_altitude_m": 126.5,
+      "mean_cruise_airspeed_ms": 23.17,
+      "max_motor_temp_c": 116.2,
+      "max_motor_temp_spread": 63.4,
+      "min_battery_v": 39.78,
+      "min_battery_pct": 14.8,
+      "mean_vibration_g": 0.3001,
+      "phase_distribution": {
+        "descent": 2381,
+        "climb": 2360,
+        "landing": 1152,
+        "ground": 929,
+        "cruise": 332,
+        "unknown": 47
+      }
+    },
+    {
+      "flight_id": "FLT_004",
+      "duration_s": 540.0,
+      "total_samples": 5401,
+      "fault_samples": 4,
+      "fault_rate_pct": 0.07,
+      "fault_types": [
+        {
+          "reason": "MOTOR_TEMP_ANOMALY_ZSCORE",
+          "count": 3
+        },
+        {
+          "reason": "VIBRATION_ANOMALY_ZSCORE",
+          "count": 1
+        }
+      ],
+      "max_altitude_m": 126.2,
+      "mean_cruise_airspeed_ms": 23.26,
+      "max_motor_temp_c": 58.8,
+      "max_motor_temp_spread": 6.1,
+      "min_battery_v": 39.82,
+      "min_battery_pct": 14.6,
+      "mean_vibration_g": 0.3009,
+      "phase_distribution": {
+        "descent": 2413,
+        "climb": 2328,
+        "cruise": 340,
+        "landing": 150,
+        "ground": 128,
+        "unknown": 42
+      }
+    },
+    {
+      "flight_id": "FLT_005",
+      "duration_s": 600.0,
+      "total_samples": 6001,
+      "fault_samples": 899,
+      "fault_rate_pct": 14.98,
+      "fault_types": [
+        {
+          "reason": "MOTOR_TEMP_SPREAD_HIGH",
+          "count": 894
+        },
+        {
+          "reason": "motor2_CRITICAL_OVERHEAT",
+          "count": 495
+        },
+        {
+          "reason": "motor2_TEMP_WARN",
+          "count": 380
+        },
+        {
+          "reason": "MOTOR_TEMP_ANOMALY_ZSCORE",
+          "count": 5
+        },
+        {
+          "reason": "VIBRATION_ANOMALY_ZSCORE",
+          "count": 1
+        }
+      ],
+      "max_altitude_m": 126.5,
+      "mean_cruise_airspeed_ms": 23.29,
+      "max_motor_temp_c": 116.4,
+      "max_motor_temp_spread": 62.8,
+      "min_battery_v": 39.85,
+      "min_battery_pct": 14.4,
+      "mean_vibration_g": 0.3008,
+      "phase_distribution": {
+        "descent": 2383,
+        "climb": 2338,
+        "ground": 727,
+        "cruise": 356,
+        "landing": 150,
+        "unknown": 47
+      }
+    }
+  ]
+}
